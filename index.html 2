@@ -1,59 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>My GitHub HTML Project</title>
-  <meta name="description" content="A small starter site ready for GitHub Pages." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <a class="brand" href="#">MySite</a>
-      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="nav">☰</button>
-      <nav id="nav" class="main-nav" aria-label="Main navigation">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#demo">Demo</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <h1><center>Living in Montana</center></h1>
   </header>
 
-  <main class="container" id="home">
-    <section class="hero">
-      <h1>Welcome to MySite</h1>
-      <p class="lead">A tiny, responsive HTML starter you can host on GitHub Pages.</p>
-      <p><a class="btn" href="#demo">See demo</a></p>
-    </section>
+  
+  
+  
+  <img src="C:\Users\Severino MT\Downloads\IMG_5040 (1).JPG" alt="Welcome Image" style="display: block; margin: 10 auto;" width="700">
 
-    <section id="about">
-      <h2>About this repo</h2>
-      <p>This repository contains a minimal, accessible HTML/CSS/JS site. Edit the files, push to GitHub, and enable Pages to publish.</p>
-    </section>
-
-    <section id="demo">
-      <h2>Interactive demo</h2>
-      <p>Click the button to update the message below:</p>
-      <button id="updateBtn">Update message</button>
-      <p id="message" class="muted">Original message.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Replace this with your contact info or link to your GitHub profile.</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> MySite — built for GitHub Pages.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    
 </body>
 </html>
+
